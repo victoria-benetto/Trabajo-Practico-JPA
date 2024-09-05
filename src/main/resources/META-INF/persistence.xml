@@ -3,15 +3,37 @@
              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
              xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_2.xsd"
              version="2.2">
-    <persistence-unit name="example-unit" transaction-type="RESOURCE_LOCAL">
-        <class>org.example.Persona</class>
+
+    <!-- Define el nombre de la unidad de persistencia -->
+    <persistence-unit name="Entidades" transaction-type="RESOURCE_LOCAL">
+
+        <!-- Agrega las clases de entidades aquí -->
+        <class>Entidades.Articulo</class>
+        <class>Entidades.Categoria</class>
+        <class>Entidades.Cliente</class>
+        <class>Entidades.DetalleFactura</class>
+        <class>Entidades.Domicilio</class>
+        <class>Entidades.Factura</class>
+
+        <!-- Configuración de propiedades -->
         <properties>
+
+            <!-- Configuración de la base de datos -->
             <property name="javax.persistence.jdbc.driver" value="org.h2.Driver"/>
-            <property name="javax.persistence.jdbc.url" value="jdbc:h2:tcp://localhost/~/test"/>
+            <property name="javax.persistence.jdbc.url" value="jdbc:h2:file:./VictoriaDB"/>
             <property name="javax.persistence.jdbc.user" value="sa"/>
             <property name="javax.persistence.jdbc.password" value=""/>
-            <property name="hibernate.show_sql" value="true"/>
+
+            <!-- Configuración de Hibernate -->
+            <property name="hibernate.dialect" value="org.hibernate.dialect.H2Dialect"/>
             <property name="hibernate.hbm2ddl.auto" value="create"/>
+            <property name="hibernate.show_sql" value="true"/>
+            <property name="hibernate.format_sql" value="true"/>
+            <property name="hibernate.use_sql_comments" value="true"/>
+
+            <!-- Configuración adicional -->
+            <property name="hibernate.connection.pool_size" value="5"/>
+
         </properties>
     </persistence-unit>
 </persistence>
