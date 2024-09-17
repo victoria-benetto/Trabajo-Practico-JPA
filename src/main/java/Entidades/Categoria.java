@@ -30,5 +30,7 @@ public class Categoria implements Serializable {
     private String denominacion;
 
     @ManyToMany(mappedBy = "categorias")
+    @Builder.Default
     private List<Articulo> articulos = new ArrayList<Articulo>();
+
 }

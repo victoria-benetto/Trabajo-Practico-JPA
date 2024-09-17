@@ -1,9 +1,6 @@
 package Entidades;
 
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import lombok.*;
 
 import javax.persistence.*;
 import java.io.Serializable;
@@ -34,10 +31,12 @@ public class Cliente implements Serializable {
     @Column(name = "dni", unique = true)
     private int dni;
 
+    @ToString.Exclude
     @OneToOne(cascade = CascadeType.ALL)
     @JoinColumn (name = "fk_domicilio")
     private Domicilio domicilio;
 
-    @OneToMany(mappedBy = "cliente")
+   /* @OneToMany(mappedBy = "cliente")
     private List<Factura> facturas = new ArrayList<Factura>();
+    */
 }

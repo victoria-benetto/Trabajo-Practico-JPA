@@ -17,9 +17,7 @@ import java.util.List;
 @Entity
 @Table(name="articulo")
 
-public class Articulo implements Serializable {
-
-    private static final long serialVersionUID = 1L;
+public class Articulo  implements Serializable{
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -34,15 +32,18 @@ public class Articulo implements Serializable {
     @Column(name = "precio")
     private int precio;
 
+
     @OneToMany(mappedBy = "articulo")
+    @Builder.Default
     private List<DetalleFactura> detalleFacturas = new ArrayList<DetalleFactura>();
 
+    @Builder.Default
     @ManyToMany(cascade = {CascadeType.PERSIST, CascadeType.MERGE})
     @JoinTable(
             name = "articulo_categoria",
             joinColumns = @JoinColumn(name = "articulo_id"),
             inverseJoinColumns = @JoinColumn(name = "categoria_id"))
-    private List<Categoria> categorias = new ArrayList<>();
+    private List<Categoria> categorias = new ArrayList<Categoria>();
 
 
 }

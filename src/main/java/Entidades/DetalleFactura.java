@@ -34,10 +34,8 @@ public class DetalleFactura implements Serializable {
     @JoinColumn(name = "fk_articulo")
     private Articulo articulo;
 
-    //Bidireccional
-    @ManyToOne(cascade = CascadeType.PERSIST)
+    @ManyToOne(cascade = {CascadeType.PERSIST, CascadeType.MERGE})
     @JoinColumn(name = "fk_factura")
     private Factura factura;
-
 
 }

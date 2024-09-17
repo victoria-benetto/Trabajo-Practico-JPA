@@ -4,10 +4,6 @@ import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
 
-import java.util.ArrayList;
-import java.util.List;
-
-
 
 public class PersistenceApp {
     public static void main(String[] args){
@@ -73,9 +69,9 @@ public class PersistenceApp {
            det1.setSubtotal(40);
 
 
-           art1.getDetalleFacturas().add(det1);
-           factura1.getDetalles().add(det1);
-           det1.setFactura(factura1);
+          art1.getDetalleFacturas().add(det1);
+          factura1.getDetalles().add(det1);
+          //det1.setFactura(factura1);
 
 
            DetalleFactura det2 = new DetalleFactura();
@@ -84,9 +80,9 @@ public class PersistenceApp {
            det2.setSubtotal(80);
 
 
-           art2.getDetalleFacturas().add(det2);
+          art2.getDetalleFacturas().add(det2);
            factura1.getDetalles().add(det2);
-           det2.setFactura(factura1);
+          //det2.setFactura(factura1);
 
            factura1.setTotal(120);
 

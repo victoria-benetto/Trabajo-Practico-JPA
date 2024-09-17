@@ -1,6 +1,5 @@
 package Entidades;
 
-
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -17,7 +16,6 @@ import java.util.List;
 @Builder
 @Entity
 @Table(name="factura")
-
 public class Factura implements Serializable {
 
     private static final long serialVersionUID = 1L;
@@ -32,23 +30,16 @@ public class Factura implements Serializable {
     @Column(name = "numero")
     private int numero;
 
-    @Column(name = "Total")
+    @Column(name = "total")
     private int total;
 
     @ManyToOne(cascade = CascadeType.PERSIST)
     @JoinColumn(name = "fk_cliente")
     private Cliente cliente;
 
-/*
-    //Unidireccional
-    @OneToMany(cascade = CascadeType.ALL, orphanRemoval = true)
-    private List<DetalleFactura> detalles = new ArrayList<DetalleFactura>();
-*/
-
-    //Bidireccional
+    // Relación bidireccional con DetalleFactura
     @OneToMany(mappedBy = "factura", cascade = CascadeType.ALL, orphanRemoval = true)
-    private List<DetalleFactura> detalles = new ArrayList<DetalleFactura>();
+    private List<DetalleFactura> detalles = new ArrayList<>();
 
 
 }
-

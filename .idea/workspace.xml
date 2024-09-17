@@ -5,39 +5,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5d4c2a44-0eeb-4f55-88f6-84d7aef60f47" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Entidades/Articulo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Entidades/Categoria.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Entidades/Cliente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Entidades/DetalleFactura.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Entidades/Domicilio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Entidades/Factura.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Entidades/PersistenceApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/checksums/md5-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/checksums/sha1-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/dependencies-accessors/dependencies-accessors.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/dependencies-accessors/dependencies-accessors.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.5.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.5.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/example/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/example/Persona.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VictoriaDB.mv.db" beforeDir="false" afterPath="$PROJECT_DIR$/VictoriaDB.mv.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VictoriaDB.trace.db" beforeDir="false" afterPath="$PROJECT_DIR$/VictoriaDB.trace.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Entidades/Articulo$ArticuloBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/Entidades/Articulo$ArticuloBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Entidades/Articulo.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/Entidades/Articulo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Entidades/Categoria$CategoriaBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/Entidades/Categoria$CategoriaBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Entidades/Categoria.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/Entidades/Categoria.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Entidades/Cliente$ClienteBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/Entidades/Cliente$ClienteBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Entidades/Cliente.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/Entidades/Cliente.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Entidades/DetalleFactura.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/Entidades/DetalleFactura.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Entidades/Factura$FacturaBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/Entidades/Factura$FacturaBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Entidades/Factura.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/Entidades/Factura.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Entidades/PersistenceApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/Entidades/PersistenceApp.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/resources/main/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/META-INF/persistence.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Persona.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Entidades/Articulo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Entidades/Articulo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Entidades/Categoria.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Entidades/Categoria.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Entidades/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Entidades/Cliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Entidades/DetalleFactura.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Entidades/DetalleFactura.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Entidades/Factura.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Entidades/Factura.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Entidades/PersistenceApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Entidades/PersistenceApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -74,18 +69,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Gradle.jpaBase [:Entidades.PersistenceApp.main()].executor": "Run",
-    "Gradle.jpaBase [:Main.PersistenceApp.main()].executor": "Run",
-    "Gradle.jpaBase [:org.example.Main.main()].executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Victoria/Desktop/jpah2-main",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.jpaBase [:Entidades.PersistenceApp.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.jpaBase [:Main.PersistenceApp.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.jpaBase [:org.example.Main.main()].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Facu/Desarrollo de Software/TP4 ENVERS/jpaconenvers-main&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
@@ -109,5 +104,16 @@
       <updated>1725410127723</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

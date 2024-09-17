@@ -8,6 +8,7 @@
     <persistence-unit name="Entidades" transaction-type="RESOURCE_LOCAL">
 
         <!-- Agrega las clases de entidades aquí -->
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
         <class>Entidades.Articulo</class>
         <class>Entidades.Categoria</class>
         <class>Entidades.Cliente</class>
